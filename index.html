@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App by VAibhav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Counter</h1>
+        <p id="score">0</p>
+        <div class="con2">
+            <div class="inner"><button id="plus" style="color:#257c00">&plus;</button></div>
+            <div class="inner"><button id="reset" style="color:#F5EA5A">&#x21bb;</button></div>
+            <div class="inner"><button id="minus" style="color:#CD0404">&minus;</button></div>
+        </div>
+    </div>
+
+     <script> 
+        let plus = document.getElementById('plus');
+        let reset = document.getElementById('reset');
+        let minus = document.getElementById('minus');
+        let output = document.getElementById('score');
+        let score = 0;
+
+        plus.addEventListener('click', ()=>{
+            score++;
+            output.innerHTML = score;
+
+            if(score >= 1){
+                output.style.color = "#257c00";
+            }else if(score == 0){
+                output.style.color = "white"
+            }
+        })
+
+        minus.addEventListener('click', ()=>{
+            score--;
+            output.innerHTML = score;
+
+            if(score < 1){
+                output.style.color = "#CD0404";
+            }else if(score == 0){
+                output.style.color = "white"
+            }
+        })
+
+        reset.addEventListener('click', () =>{
+            score = 0;
+            output.innerHTML = score;
+            output.style.color="white";
+        })
+    </script> 
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>
