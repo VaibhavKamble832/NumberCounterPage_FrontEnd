@@ -7,3 +7,4 @@
 <h2>Technologies Used:</h2>
 <p><b>HTML: </b>Structure your web page.</p>
 <p><b>CSS:</b> Style your Number Counter Page for a visually appealing interface.</p>
+<p><b>JavaScript:</b>Implement the logic for dynamic number manipulation.</p>
