@@ -3,3 +3,4 @@
 <p>Dive into frontend development with the Number Counter Page mini project! This project is a hands-on exercise using HTML, CSS, and JavaScript to create a simple webpage that features a number counter. Practice your frontend skills by implementing the ability to increment, decrement, and reset the displayed number with user-friendly buttons.</p>
 <h2>Features:</h2>
 <p><b>>Increment/Decrement: </b>Use the plus and minus buttons to dynamically increase or decrease the displayed number.</p>
+<p><b>>Reset:</b> Reset the counter to zero with the reset button.</p>
