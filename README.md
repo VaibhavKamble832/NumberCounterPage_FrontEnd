@@ -6,3 +6,4 @@
 <p><b>>Reset:</b> Reset the counter to zero with the reset button.</p>
 <h2>Technologies Used:</h2>
 <p><b>HTML: </b>Structure your web page.</p>
+<p><b>CSS:</b> Style your Number Counter Page for a visually appealing interface.</p>
