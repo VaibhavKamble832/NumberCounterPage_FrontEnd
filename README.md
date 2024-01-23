@@ -4,3 +4,4 @@
 <h2>Features:</h2>
 <p><b>>Increment/Decrement: </b>Use the plus and minus buttons to dynamically increase or decrease the displayed number.</p>
 <p><b>>Reset:</b> Reset the counter to zero with the reset button.</p>
+<h2>Technologies Used:</h2>
